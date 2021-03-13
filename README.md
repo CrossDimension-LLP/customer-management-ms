@@ -1,2 +1,2 @@
-# customer-management-ms
-CRUD related to customer profiles
+# customer-management-MS
+All customer related CRUD operations are being handled
