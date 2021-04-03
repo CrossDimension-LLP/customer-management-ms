@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: customer-management-MS
+
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: octopus
+
+
+
+
+server:
+  servlet:
+    context-path: /customerManagement/v1
+  http2:
+    enabled: true
+  port: 9070
