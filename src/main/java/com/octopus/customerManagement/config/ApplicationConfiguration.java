@@ -1,6 +1,8 @@
 package com.octopus.customerManagement.config;
 
+import com.octopus.customerManagement.businessLogic.implementation.PatchUtility;
 import com.octopus.customerManagement.businessLogic.implementation.Utility;
+import com.octopus.customerManagement.businessLogic.interfaces.IPatchUtility;
 import com.octopus.customerManagement.businessLogic.interfaces.IUtility;
 import com.octopus.customerManagement.service.implementation.CustomerGatewayService;
 import com.octopus.customerManagement.service.interfaces.ICustomerGatewayService;
@@ -18,5 +20,10 @@ public class ApplicationConfiguration {
     @Bean
     public IUtility utility() {
         return new Utility();
+    }
+
+    @Bean
+    public IPatchUtility patchUtility() {
+        return new PatchUtility();
     }
 }
