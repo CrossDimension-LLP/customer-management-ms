@@ -1,6 +1,9 @@
 # customer-management-MS
 All customer related CRUD operations are being handled
 
+# BAST PATH for MS
+### http://localhost:9070/customerManagement/v1
+
 # Create Payload
 
 {
